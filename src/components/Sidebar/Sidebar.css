@@ -1,0 +1,17 @@
+.sidebar {
+  width: 10em;
+  box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.5);
+  margin-right: 1em;
+}
+
+.sidebar .links li {
+  padding: 0.75em;
+}
+.sidebar .links li:hover {
+  background: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.sidebar .active {
+  background: rgba(0, 0, 0, 0.1);
+}

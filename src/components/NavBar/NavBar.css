@@ -1,0 +1,35 @@
+nav {
+  background: #cc0000;
+  color: white;
+  font-size: 1em;
+  padding: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav h1 {
+  margin: 0;
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline-flex;
+  align-items: center;
+}
+nav ul li:first-of-type {
+  flex: 1
+}
+nav ul li:not(:first-of-type) {
+  margin-left: 0.5em;
+}
